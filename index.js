@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 });
 
 // app.listen(4000);
-app.listen($PORT);
+app.listen(process.env.PORT || 8080);
 console.log('server is running');
 
 
