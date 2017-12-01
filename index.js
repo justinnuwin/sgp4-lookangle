@@ -31,7 +31,8 @@ app.get('/', function (req, res) {
     res.send(lookAt);
 });
 
-app.listen(4000);
+// app.listen(4000);
+app.listen($PORT);
 console.log('server is running');
 
 
@@ -109,9 +110,6 @@ function getLookAngle(satX, satY, satZ, gsX, gsY, gsZ, LST, gsLat, gsLon) {
     // El = toDeg * asin(rZ / range);
     El = rZ / range;
     Az = toDeg * atan(-rE / rS);
-
-    console.log(rZ/range);
-    console.log(asin(rZ/range));
 
     if (rS > 0) { Az += 180 }
     if (Az < 0) { Az += 360 }
