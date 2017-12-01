@@ -1,3 +1,8 @@
+/*
+ * This is based on Jens T. Satre's Satellite Tracker
+ * http://www.satellite-calculations.com/TLETracker/SatTracker.htm
+ */
+
 // let sgp4 = require('./lib/sgp4');
 // let ECI = require('./lib/geocentricECI');
 // let lookangle = require('./lib/lookangle');
