@@ -1,3 +1,6 @@
+# Jetbrains folder
+.idea/
+
 # Logs
 logs
 *.log
