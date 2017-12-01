@@ -1,0 +1,23 @@
+{
+  "name": "sgp4-lookangle",
+  "version": "1.0.0",
+  "description": "Web API for performing SGP4 propagation on an orbit and returning the look angle for tracking.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinnuwin/sgp4-lookangle.git"
+  },
+  "author": "Justin Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinnuwin/sgp4-lookangle/issues"
+  },
+  "homepage": "https://github.com/justinnuwin/sgp4-lookangle#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
